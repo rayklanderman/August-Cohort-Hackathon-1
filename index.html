@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raymond Klanderman Portfolio</title>
+    <meta
+      name="description"
+      content="Raymond Klanderman's portfolio website, showcasing his projects, skills, and experience."
+    />
+    <meta
+      name="keywords"
+      content="Raymond Klanderman, portfolio, web development, AI enthusiast, content creator"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header with navigation menu -->
+    <header>
+      <div class="header-image-container">
+        <img src="cvimg.png" alt="Raymond Klanderman" class="header-image" />
+      </div>
+      <div class="header-content">
+        <h1>Raymond Klanderman</h1>
+        <p>Web Developer | AI Enthusiast | Content Creator</p>
+        <nav>
+          <button
+            class="btn glossy"
+            onclick="document.getElementById('education').scrollIntoView();"
+          >
+            Education
+          </button>
+          <button
+            class="btn glossy"
+            onclick="document.getElementById('projects').scrollIntoView();"
+          >
+            Projects
+          </button>
+          <button
+            class="btn glossy"
+            onclick="document.getElementById('skills').scrollIntoView();"
+          >
+            Skills
+          </button>
+          <button
+            class="btn glossy"
+            onclick="document.getElementById('contact').scrollIntoView();"
+          >
+            Contact
+          </button>
+        </nav>
+        <button class="btn glossy">
+          <a
+            href="Curriculum Vitae.pdf"
+            download
+            style="text-decoration: none; color: #ffffff"
+            >Download CV</a
+          >
+        </button>
+      </div>
+    </header>
+
+    <!-- Education Section -->
+    <section id="education" class="container">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Management University of Africa:</strong> Diploma in
+          Information Technology
+        </li>
+        <li>
+          <strong>Management University of Africa:</strong> Bachelor of Business
+          Administration and Management
+        </li>
+        <li>
+          <strong>The Kenya Institute of Management:</strong> Research
+          Methodology & SPSS
+        </li>
+        <li>
+          <strong>Stanford University (Code In Place):</strong> Introduction to
+          Programming (CS106A)
+        </li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <p>
+          <button class="btn glossy">
+            <a
+              href="https://kenyanese.online"
+              target="_blank"
+              class="kenyanese-link"
+            >
+              <strong>Kenyanese</strong>
+            </a>
+          </button>
+          Social networking site designed to connect and share content for
+          Kenyans. It was established in 2024 and offers a variety of
+          functionalities, including creating profiles, posting updates, joining
+          groups, and private messaging through its messaging feature. Here's a
+          general breakdown of the tech stack: Front-end: HTML5, CSS3,
+          JavaScript, ReactJS Back-end: Node.js, Express.js Database: MongoDB
+        </p>
+        <p>
+          <button class="btn glossy">
+            <a
+              href="https://github.com/rayklanderman/CODE-IN-PLACE-"
+              target="_blank"
+              class="weather-notification-link"
+            >
+              <strong>Weather Notification App</strong>
+            </a>
+          </button>
+          A Python-based desktop application that delivers real-time weather
+          updates directly to your desktop. It utilizes the OpenWeather API to
+          fetch weather data and leverages the Plyer library to display
+          informative notifications.
+        </p>
+        <p>
+          <button class="btn glossy">
+            <a
+              href="https://streamalive.online/webmeet/"
+              target="_blank"
+              class="stream-alive-webmeet-link"
+            >
+              <strong>Stream Alive WebMeet</strong>
+            </a>
+          </button>
+          Webmeet utilizes Jitsi's open-source WebRTC technology for its core
+          video conferencing features. This allows Webmeet to offer real-time
+          video and audio streaming. By leveraging Jitsi's robust tech stack,
+          Webmeet provides a feature-rich WebRTC web conferencing experience.
+        </p>
+      </div>
+      <!-- Add more project items as necessary -->
+    </section>
+
+    <!-- Skills Section (Programming Languages and Frameworks) -->
+    <section id="skills" class="container">
+      <h2>Programming Languages</h2>
+      <div class="skills-buttons">
+        <button class="glossy html">HTML</button>
+        <button class="glossy css">CSS</button>
+        <button class="glossy js">JavaScript</button>
+        <button class="glossy python">Python</button>
+      </div>
+
+      <h2>Frameworks</h2>
+      <div class="skills-buttons">
+        <button class="glossy react">React</button>
+        <button class="glossy node">Node.js</button>
+        <button class="glossy flutter">Flutter</button>
+        <button class="framework-btn django">Django</button>
+        <button class="framework-btn flask">Flask</button>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Your Message"></textarea>
+        <button class="btn glossy" type="submit">Send Message</button>
+      </form>
+
+      <h3>Connect with Me</h3>
+      <div class="social-buttons">
+        <a
+          href="https://www.linkedin.com/in/raymondklanderman/"
+          class="btn glossy"
+          >LinkedIn</a
+        >
+        <a href="https://x.com/rayklanderman" class="btn glossy">X</a>
+        <a href="https://github.com/rayklanderman" class="btn glossy">GitHub</a>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
