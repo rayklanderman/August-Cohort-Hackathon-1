@@ -4,15 +4,17 @@ document.querySelectorAll("nav button").forEach((button) => {
     event.preventDefault();
     const targetId = event.target.textContent.trim().toLowerCase();
     const targetElement = document.getElementById(targetId);
-    targetElement.scrollIntoView({ behavior: "smooth" });
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: "smooth" });
+    }
   });
 });
 
-// Add event listener to contact form submit button
-document
-  .querySelector('form button[type="submit"]')
-  .addEventListener("click", (event) => {
-    event.preventDefault();
-    // TO DO: implement form submission logic here
-    console.log("Form submitted!");
-  });
+// Ensure that the form submission is handled correctly by Formspree
+document.querySelector("form").addEventListener("submit", function (event) {
+  // Remove event.preventDefault() to allow Formspree to handle the submission
+  // event.preventDefault(); // Remove or comment out this line
+
+  // Optionally, you can add additional validation or logic here if needed
+  console.log("Form submitted!"); // This will log when the form is submitted
+});
