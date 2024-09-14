@@ -1,5 +1,5 @@
-1. **August-Cohort-Hackathon-1**:
-2. # 🌟 Raymond Klanderman Portfolio
+# **August-Cohort-Hackathon-1**
+# 🌟 Raymond Klanderman Portfolio
 
 Welcome to my personal portfolio website! Here, you can explore my projects, skills, and experience as a web developer, AI enthusiast, and content creator.
 
