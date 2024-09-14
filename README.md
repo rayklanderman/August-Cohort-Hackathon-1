@@ -1,13 +1,8 @@
-# August-Cohort-Hackathon-1
-Here’s the updated README with emojis:
-
----
-
 # 🌟 Raymond Klanderman Portfolio
 
 Welcome to my personal portfolio website! Here, you can explore my projects, skills, and experience as a web developer, AI enthusiast, and content creator.
 
-![Raymond Klanderman](cvimg.png)
+<img src="cvimg.png" alt="Raymond Klanderman" style="width: 100px; height: 100px;" />
 
 ## 📚 Table of Contents
 
@@ -111,3 +106,5 @@ You can use the contact form below to send me a direct message. Your email and m
 4. Customize as needed and deploy to your hosting environment.
 
 For any issues or contributions, feel free to open an issue or pull request on the [GitHub repository](https://github.com/rayklanderman/portfolio).
+
+
