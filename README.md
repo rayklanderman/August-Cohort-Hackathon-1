@@ -94,12 +94,12 @@ You can use the contact form below to send me a direct message. Your email and m
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rayklanderman/portfolio.git
+   git clone https://github.com/rayklanderman/August-Cohort-Hackathon-1.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd portfolio
+   cd August-Cohort-Hackathon-1
    ```
 
 3. Open `index.html` in your web browser to view the portfolio.
