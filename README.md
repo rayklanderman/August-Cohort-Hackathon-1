@@ -90,4 +90,4 @@ Let's connect and network on these platforms! 🌍
 
 1. Clone the repository:
    ```bash
-  [ git clone https://github.com/rayklanderman/August-Cohort-Hackathon-1.git ]
+  git clone https://github.com/rayklanderman/August-Cohort-Hackathon-1.git 
