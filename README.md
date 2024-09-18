@@ -1,6 +1,7 @@
 # **August-Cohort-Hackathon-1**
 # 🌟 Raymond Klanderman Portfolio
-![](https://api.visitorbadge.io/api/VisitorHit?user=estruyf&repo=github-visitors-badge&countColor=%237B1E7A)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=rayklanderman%20%2F%20August-Cohort-Hackathon-1&labelColor=%2337d67a&countColor=%23263759)
+
 Welcome to my personal portfolio website! Here, you can explore my projects, skills, and experience as a web developer, AI enthusiast, and content creator.
 
 <img src="cvimg.png" alt="Raymond Klanderman" style="width: 100px; height: 100px;" />
